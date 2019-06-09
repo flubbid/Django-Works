@@ -18,6 +18,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.home),
-    path('eggs', views.eggs)
+    path('', views.homepage),
+    path('count/', views.count, name="count")
 ]
